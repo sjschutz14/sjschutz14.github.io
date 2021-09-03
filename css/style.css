@@ -10,6 +10,22 @@ body{
     background-color: black;
 }
 
+.about-title{
+    background-color: #eca621;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    opacity: 80%;
+    color: whitesmoke;
+    font-weight: 800;
+    width: 100vw;
+    text-align: center;
+    font-family: var(--roboto);
+    width: 100vw;
+    height: 10rem;
+}
+
 /* BANNER */
 .jumbotron{
     background-image: url('/img/banner/mustang-sunset.jfif');
@@ -30,23 +46,6 @@ body{
     .jumbotron{
         height: auto;
     }
-}
-
-
-.about-title{
-    background-color: #eca621;
-    background-size: cover;
-    background-position: bottom;
-    background-attachment: fixed;
-    background-blend-mode: multiply;
-    opacity: 80%;
-    color: whitesmoke;
-    font-weight: 800;
-    width: 100vw;
-    text-align: center;
-    font-family: var(--roboto);
-    width: 100vw;
-    height: 10rem;
 }
 
 /* SERVICES */
