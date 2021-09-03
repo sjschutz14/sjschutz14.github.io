@@ -163,7 +163,7 @@ body{
 .services-area .container-fluid .list-group-item{
     background-color: silver;
     color: black;  
-    width: 100vw;
+    width: 100%;
     margin: 1px;
     text-align: center;
     font-weight: 500;
@@ -288,7 +288,7 @@ div.gallery img {
     body{
         overflow-x: hidden;
     }
-    
+
     .header_area .main_menu .navbar .navbar-brand{
         visibility: hidden;
     }
