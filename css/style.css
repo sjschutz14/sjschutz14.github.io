@@ -46,17 +46,24 @@ body{
     text-align: center;
     font-family: var(--roboto);
     width: 100vw;
-    height: 12rem;
+    height: 10rem;
 }
 
+/* SERVICES */
 .services{
     background-image: url(/img/services/car-trees.jpg);
 }
 
+.service-image{
+    border-radius: 25px;
+}
+
+/* WORK */
 .work{
     background-image: url(/img/work/fall-car.jpg);
 }
 
+/* CONTACT */
 .contact{
     background-image: url(/img/contact/car1.jfif);
 }
@@ -67,4 +74,3 @@ body{
     width: 100vw;
     height: 600px;
 }
-

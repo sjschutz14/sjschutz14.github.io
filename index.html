@@ -19,6 +19,7 @@
 
 </head>
 <body>
+    <!-- BANNER -->
     <section>
         <div class="jumbotron">
             <h1 class="display-4 text-uppercase">CL Detailing</h1>
@@ -30,9 +31,96 @@
           </div>
     </section>
 
+    <!-- SERVICES -->
     <section>
-        <div class="red about-title services">
-            <p>lorem5</p>
+        <div class="about-title services">
+            <div class="services-title text-uppercase">
+                <h1>Services Offered</h1>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-med-12 pb-5 pt-5">
+                    <img src="img/services/carDetail1.jfif" alt="my services" class="img-fluid service-image">
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <h4 class="text-uppercase">Select a service to learn more</h4>
+                    <div class="row", id="services-provided">
+                        <div class="col-4">
+                          <div class="list-group pt-4" id="list-tab" role="tablist">
+                            <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Basic Wash</a>
+                            <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Basic Interior</a>
+                            <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">Interior + Exterior</a>
+                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">The Works</a>
+                          </div>
+                        </div>
+                        <div class="col-8">
+                          <div class="tab-content pt-4" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                              <script>
+                                var triggerFirstTabEl = document.querySelector('#list-tab li:first-child a')
+                                bootstrap.Tab.getInstance(triggerFirstTabEl).show()
+                              </script>
+                              <p>Basic Wash includes washing the exterior of the car (wheels and windows included) with premium products 
+                                and finishing it off by applying a detailing spray. Where car washes miss hard to reach areas such as door
+                                jambs, you can be sure I'll clean it all.
+                              </p>
+                              <br>
+                              <p>Starting at $30</p>
+                            </div>
+                            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                              <script>
+                                var triggerFirstTabEl = document.querySelector('#list-tab li:second-child a')
+                                bootstrap.Tab.getInstance(triggerFirstTabEl).show()
+                              </script>
+                              <p>Basic Interior includes vacuuming, dusting, and general cleaning of interior parts. Sticky cupholders?
+                                 I've got your covered. Cleaning underneath and between seats is standard with the package. Stain removal 
+                                 or other heavy duty cleaning can be added as well.
+                              </p>
+                              <br>
+                              <p>Starting at $35</p>
+                            </div>
+                            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                              <script>
+                                var triggerFirstTabEl = document.querySelector('#list-tab li:third-child a')
+                                bootstrap.Tab.getInstance(triggerFirstTabEl).show()
+                              </script>
+                              <p>If you're looking for a full detailing package but don't need waxing or polishing, this is the 
+                                service for you. It combines Basic Wash with Basic Interior to get your entire car looking 
+                                clean again. I can accomodate specific concerns or areas you would like
+                                to be cleaned, as well.
+                              </p>
+                              <br>
+                              <p>Starting at $60</p>
+                            </div>
+                            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                              <script>
+                                var triggerFirstTabEl = document.querySelector('#list-tab li:fourth-child a')
+                                bootstrap.Tab.getInstance(triggerFirstTabEl).show()
+                              </script>
+                              <p>If your car needs some extra care or you just want it to look its absolute best, this is the package you want. 
+                                It includes the above services but adds clay barring and waxing/polishing, giving your car lasting shine and protection 
+                                while out on the road.
+                              </p>
+                              <br>
+                              <p>Starting at $100</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WORK -->
+    <section>
+        <div class="about-title work">
+            <div class="work-title text-uppercase">
+                <h1>Recent Work</h1>
+            </div>
         </div>
     </section>
 
@@ -42,21 +130,12 @@
         </div>
     </section>
 
+    <!-- CONTACT -->
     <section>
-        <div class="red about-title work">
-            <p>lorem5</p>
-        </div>
-    </section>
-
-    <section>
-        <div class="blue">
-            <p>lorem5</p>
-        </div>
-    </section>
-
-    <section>
-        <div class="red about-title contact">
-            <p>lorem5</p>
+        <div class="about-title contact">
+            <div class="contact-title text-uppercase">
+                <h1>Contact Me</h1>
+            </div>
         </div>
     </section>
 
