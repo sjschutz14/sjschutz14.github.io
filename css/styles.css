@@ -7,6 +7,10 @@
 /* import global styling */
 @import url(./partials/global.css);
 
+body{
+    overflow-x: hidden;
+}
+
 /* NAV start */
 .header_area .main_menu .navbar .navbar-brand{
     padding: 0 2rem 0 2rem;
@@ -281,6 +285,10 @@ div.gallery img {
 
 /* MOBILE */
 @media only screen and (max-width: 500px){
+    body{
+        overflow-x: hidden;
+    }
+    
     .header_area .main_menu .navbar .navbar-brand{
         visibility: hidden;
     }
