@@ -20,19 +20,24 @@
     </head>
     <body>
         <!-- NAV -->
-        <div class="pos-f-t">
-            <div class="collapse" id="navbarToggleExternalContent">
-              <div class="bg-dark p-4">
-                <h4 class="text-white">Collapsed content</h4>
-                <span class="text-muted">Toggleable via the navbar brand.</span>
-              </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-black">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#my-services">my services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#my-work">my work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact-me" id="hire-me" style="color: orangered;">hire me</a>
+                </li>
+              </ul>
             </div>
-            <nav class="navbar navbar-dark bg-dark">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            </nav>
-          </div>
+          </nav>
 
         <!-- BANNER -->
         <section>
@@ -47,7 +52,7 @@
         </section>
 
         <!-- SERVICES -->
-        <section>
+        <section id="my-services">
             <div class="about-title services">
                 <div class="services-title text-uppercase">
                     <h1>Services Offered</h1>
@@ -131,7 +136,7 @@
         </section>
 
         <!-- WORK -->
-        <section>
+        <section id="my-work">
             <div class="about-title work">
                 <div class="work-title text-uppercase">
                     <h1>Recent Work</h1>
@@ -178,7 +183,7 @@
         </section>  
 
         <!-- CONTACT -->
-        <section>
+        <section id="contact-me">
             <div class="about-title contact">
                 <div class="contact-title text-uppercase">
                     <h1>Contact Me</h1>
