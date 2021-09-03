@@ -108,13 +108,15 @@ body{
     .jumbotron{
         width: 100vw;
         height: 800px;
-        background-position: right center;
+        background-position: 83% 50%;
     }
 
     .jumbotron h1{
-        padding-top: 10%;
+        padding-top: 23%;
         padding-left: 5%; 
         font-size: 3rem;
+        color: white;
+        text-decoration: underline;
     }
     
     .jumbotron p{
@@ -126,6 +128,7 @@ body{
 /* SERVICES */
 .services{
     background-image: url(/img/services/car-trees.jpg);
+    margin-bottom: 3rem;
 }
 
 .service-image{
@@ -151,7 +154,6 @@ body{
 
 .services-area .service-select{
     color: whitesmoke;
-    padding-top: 3.5rem;
 }
 
 .services-area .container-fluid .list-group-item{
@@ -180,13 +182,16 @@ body{
     background-blend-mode: multiply;
  }
 
-@media only screen and(max-width: 600px){
-
+@media only screen and (max-width: 600px){
+    .services-area .service-select{
+        padding-top: 1rem;
+    }
 }
 
 /* WORK */
 .work{
     background-image: url(/img/work/fall-car.jpg);
+    margin-top: 3rem;
 }
 
 .work .work-title{
