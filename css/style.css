@@ -66,10 +66,3 @@ body{
 .contact{
     background-image: url(/img/contact/car1.jfif);
 }
-
-.blue{
-    color: white;
-    background-color: blue;
-    width: 100vw;
-    height: 600px;
-}
