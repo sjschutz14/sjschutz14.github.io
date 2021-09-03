@@ -1,230 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Chud's Detailing Services</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        
-        <!-- Bootstrap CSS files-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CL Detailing</title>
 
-        <!-- Custom CSS file-->
-        <link rel="stylesheet" href="./css/styles.css">
+    <!-- Bootsrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-        <!-- Roboto font-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="./css/style.css" rel="stylesheet">
 
-    </head>
-    <body>
-        <!-- ============START header area==============-->
-        <header class="header_area">
-            <div class="main_menu">
-                <nav class="navbar navbar-expand-lg navbar-light" id="nav">
-                  <a class="navbar-brand" href="#"><img src="/img/nav/logo2.png" height="50" alt="logo"></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#my-services">my services</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#my-work">my work</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link glow" id="hire-me" href="#my-contact" style="color:orangered">hire me!</a>
-                      </li>
-                    </ul>
-                  </div>
-                </nav>
-            </div>
-        </header>
-        <!-- ============END header area==============-->
-        <!-- ============START main area==============-->
-        <main class="site-main">
-        <!-- ============START banner area==============-->
-          <section class="site-banner">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-6 col-md-12 site-title">
-                  <h3 class="title-text">todo</h3>
-                  <h1 class="title-text text-uppercase">Carolina Cleanin'</h1>
-                  <h4 class="title-text text-uppercase">Since 2010</h4>
-                  <div class="site-button">
-                    <div class="d-flex flex-row flex-wrap">
-                      <a class="btn button primary-button mr-4 text-uppercase" href="#my-contact" role="button">talk dirty to me</a>
-                    </div>
-                </div>
-              </div>
-            </div>
-          </section>
-        <!-- ============END banner area==============-->
+    <!-- Roboto font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-        <!-- ============START services area==============-->
-        <section class="services-area" id="my-services">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="pb-5 about-title text-uppercase">
-                <h2 class="pt-5 pb-5">Services Offered</h2>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-6 col-md-12">
-                <div class="about-image">
-                  <img src="/img/banner/carDetail1.jfif" alt="My services" class="img-fluid" style="border-radius: 25px;">
-                </div>
-              </div>
-              <div class="col-lg-6 col-md-12" id="my-services">
-                  <h5 class="text-uppercase">Select a service to learn more</h5>
-                <div class="row", id="services-provided">
-                  <div class="col-4">
-                    <div class="list-group pt-4" id="list-tab" role="tablist">
-                      <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Basic Wash</a>
-                      <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Basic Interior</a>
-                      <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">Interior + Exterior</a>
-                      <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">The Works</a>
-                    </div>
-                  </div>
-                  <div class="col-8">
-                    <div class="tab-content pt-4" id="nav-tabContent">
-                      <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
-                        <script>
-                          var triggerFirstTabEl = document.querySelector('#list-tab li:first-child a')
-                          bootstrap.Tab.getInstance(triggerFirstTabEl).show()
-                        </script>
-                        <p>Basic Wash includes washing the exterior of the car (wheels and windows included) with premium products 
-                          and finishing it off by applying a detailing spray. Where car washes miss hard to reach areas such as door
-                          jambs, you can be sure I'll clean it all.
-                        </p>
-                        <br>
-                        <p>Starting at $30</p>
-                      </div>
-                      <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
-                        <script>
-                          var triggerFirstTabEl = document.querySelector('#list-tab li:second-child a')
-                          bootstrap.Tab.getInstance(triggerFirstTabEl).show()
-                        </script>
-                        <p>Basic Interior includes vacuuming, dusting, and general cleaning of interior parts. Sticky cupholders?
-                           I've got your covered. Cleaning underneath and between seats is standard with the package. Stain removal 
-                           or other heavy duty cleaning can be added as well.
-                        </p>
-                        <br>
-                        <p>Starting at $35</p>
-                      </div>
-                      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
-                        <script>
-                          var triggerFirstTabEl = document.querySelector('#list-tab li:third-child a')
-                          bootstrap.Tab.getInstance(triggerFirstTabEl).show()
-                        </script>
-                        <p>If you're looking for a full detailing package but don't need waxing or polishing, this is the 
-                          service for you. It combines Basic Wash with Basic Interior to get your entire car looking 
-                          clean again. I can accomodate specific concerns or areas you would like
-                          to be cleaned, as well.
-                        </p>
-                        <br>
-                        <p>Starting at $60</p>
-                      </div>
-                      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
-                        <script>
-                          var triggerFirstTabEl = document.querySelector('#list-tab li:fourth-child a')
-                          bootstrap.Tab.getInstance(triggerFirstTabEl).show()
-                        </script>
-                        <p>If your car needs some extra care or you just want it to look its absolute best, this is the package you want. 
-                          It includes the above services but adds clay barring and waxing/polishing, giving your car lasting shine and protection 
-                          while out on the road.
-                        </p>
-                        <br>
-                        <p>Starting at $100</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+</head>
+<body>
+    <section>
+        <div class="jumbotron">
+            <h1 class="display-4 text-uppercase">CL Detailing</h1>
+            <p class="lead">Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p class="lead">
+                <a class="btn button primary-button mr-4 text-uppercase" href="#my-contact" role="button">talk dirty to me</a>
+            </p>
           </div>
-        </section>
-        <!-- ============END services area==============-->
-        
-        <!-- ============START work area==============-->
-        <section class="work-area">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="pb-5 text-uppercase about-title">
-                <h2 class="pt-5 pb-5" id="my-work">work that speaks for itself</h2>
-              </div>
-            </div>
-            
-            <div class="responsive">
-              <div class="gallery">
-                <a target="_blank" href="/img/work/BlueFord.jpg">
-                  <img src="/img/work/BlueFord.jpg" alt="clean car" width="600" height="400">
-                </a>
-              </div>
-            </div>
-                  
-            <div class="responsive">
-              <div class="gallery">
-                <a target="_blank" href="/img/work/whiteExp.jpg">
-                  <img src="/img/work/whiteExp.jpg" alt="clean car" width="600" height="400">
-                </a>
-              </div>
-            </div>
-                
-            <div class="responsive">
-              <div class="gallery">
-                <a target="_blank" href="/img/work/RedMustang.jpg">
-                  <img src="/img/work/RedMustang.jpg" alt="clean car" width="600" height="400">
-                </a>
-              </div>
-            </div>
-                
-            <div class="responsive">
-              <div class="gallery">
-                <a target="_blank" href="/img/work/FordF150.jpg">
-                  <img src="/img/work/FordF150.jpg" alt="clean car" width="600" height="400">
-                </a>
-              </div>
-            </div>
-                
-            <div class="clearfix"></div>
+    </section>
 
-          </div>
-        </section>
-        <!-- ============END work area==============-->
+    <section>
+        <div class="red about-title services">
+            <p>lorem5</p>
+        </div>
+    </section>
 
-        <!-- ============START contact area==============-->
-        <section class="contact-area">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="about-title text-uppercase">
-                <h2 class="pb-5 pt-5">Contact</h2>
-              </div>
-            </div>
-            <div class="row" id="my-contact">
-              <div class="col-lg">
-                <object data=https://cldetailing.getform.com/63m9v width="100%" height="1050"> <embed src=https://cldetailing.getform.com/63m9v width="100%" height="650"> </embed> Error: Embedded data could not be displayed. </object>
-              </div> 
-            </div>
-          </div>
-        </section>
-        <!-- ============END contact area==============-->
-        </main>
-        <!-- ============END main area==============-->
-        <footer>
-          <!-- jquery and Boostrap JS-->
-          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-        
-          <!-- Custom JS file-->
-          <script src="js/boostrap.js"></script>
-        </footer>
-      </body>
+    <section>
+        <div class="blue">
+            <p>lorem5</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="red about-title work">
+            <p>lorem5</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="blue">
+            <p>lorem5</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="red about-title contact">
+            <p>lorem5</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="blue">
+            <p>lorem5</p>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
 </html>
