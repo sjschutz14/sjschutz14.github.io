@@ -1,10 +1,10 @@
 /* import CSS variables */
-@import url(./partials/_variables.css);
+@import url(/css/partials/_variables.css);
 
 /* import global styling */
-@import url(./partials/global.css);
+@import url(/css/partials/global.css);
 
-
+/* GLOBAL */
 body{
     overflow-x: hidden;
     background-color: black;
@@ -24,6 +24,36 @@ body{
     font-family: var(--roboto);
     width: 100vw;
     height: 10rem;
+}
+
+.button{
+    margin: 2px;
+    font-family: var(--roboto);
+    font-size: 15px;
+    padding: 12px;
+    text-align: center;
+    background-size: 200% auto;
+    color: #FFF;
+    border-radius: 10px;
+    width: 160px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline-block;
+}
+
+.button:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: 4px 6px 8px;
+}
+
+.button.primary-button{
+    background-image: linear-gradient(to right, orangered 0%, #f7a470 51%, orangered 100%);
+}
+
+.button.primary-button:hover{
+    background-position: right center;
+    font-weight: bold;
 }
 
 /* NAV */
@@ -77,12 +107,12 @@ body{
 @media only screen and (max-width: 600px){
     .jumbotron{
         width: 100vw;
-        height: 550px;
+        height: 800px;
         background-position: right center;
     }
 
     .jumbotron h1{
-        padding-top: 15%;
+        padding-top: 10%;
         padding-left: 5%; 
         font-size: 3rem;
     }
@@ -102,12 +132,106 @@ body{
     border-radius: 25px;
 }
 
+.services .services-title{
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+    text-align: center;
+}
+
+#services-provided{
+    border-style: solid;
+    border-color: rgba(139, 139, 139, 0.25);
+    background-color: black;
+    margin-top: 0.5rem;
+    margin-right: 3px;
+    height: 25rem;
+    padding-top: 5rem;
+}
+
+.services-area .service-select{
+    color: whitesmoke;
+    padding-top: 3.5rem;
+}
+
+.services-area .container-fluid .list-group-item{
+    background-color: silver;
+    color: black;  
+    width: 100%;
+    margin: 1px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.services-area .container-fluid .list-group-item:hover{
+    font-weight: 700;
+    color: orangered;
+}
+
+.services-area .container-fluid .list-group .active{
+    font-weight: 700;
+    background-color: #eca621;
+    opacity: 90%;
+    transition: 0.3s;
+    color: orangered;
+    border-color: rgb(255, 68, 0, .25);
+    background-image: url(/img/services/mud.jfif);
+    background-position: center right;
+    background-blend-mode: multiply;
+ }
+
+@media only screen and(max-width: 600px){
+
+}
+
 /* WORK */
 .work{
     background-image: url(/img/work/fall-car.jpg);
 }
 
+.work .work-title{
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+    text-align: center;
+}
+
+div.gallery{
+    border: 1px solid #ccc;
+  }
+  
+div.gallery:hover{
+    border: 2px solid #eca621;
+    box-shadow: var(--box-shadow);
+    transition: 0.3s;
+}
+  
+div.gallery img{
+    width: 100%;
+    height: auto;
+}
+  
+  
+.responsive{
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive{
+        width: 100%;
+    }
+}
+
 /* CONTACT */
 .contact{
     background-image: url(/img/contact/car1.jfif);
+}
+
+.contact .contact-title{
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+    text-align: center;
 }
